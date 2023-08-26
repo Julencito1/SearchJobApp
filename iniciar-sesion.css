@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color: #001133;
+}
+
+.iniciar {
+    width: 633.33px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+#IC {
+    margin-top: 20px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#iniciar-p {
+    margin-top: 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+.ul1 {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#googlelog { 
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;   
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid black;
+    transition: .7s;
+}
+
+#googlelog:hover {
+    background-color: #c8ccd473;
+}
+
+.ul2 {
+    list-style: none;
+    position: relative;
+    top: 150px;
+    text-align: left;
+    left: 50px;
+}
+
+#input1 {
+    position: relative;
+    left: 22.5px;
+    outline: none;
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    transition: 1s;
+    font-size: 17px;
+    transform-origin: center;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#input1:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#input1:focus::placeholder {
+    transition: 1s;
+   transform: translateY(-17px);
+}
+
+#input1:not(:focus)::placeholder {
+    transition: 1s;
+    transform: translateY(0);
+}
+
+#input1::placeholder {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+
+#ojono {
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+    border: 0px;
+    width: 40px;
+    background-color: transparent;
+}
+
+#ojono:hover {
+    background-color: rgb(230, 227, 227);
+}
+
+#input2 {
+    margin-top: 220px;
+    position: relative;
+    left: 6px;
+    outline: none;
+    width: 400px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    transition: 1s;
+    font-size: 17px;
+    transform-origin: center;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#input2:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#input2:focus::placeholder {
+    transition: 1s;
+   transform: translateY(-17px);
+}
+
+#input2:not(:focus)::placeholder {
+    transition: 1s;
+    transform: translateY(0);
+}
+
+#ojosi {
+    position: relative;
+    top: 10px;
+    left: -22.5px;
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+    border: 0px;
+    width: 40px;
+    background-color: transparent;
+}
+
+#ojosi:hover {
+    background-color: rgb(230, 227, 227);
+}
+
+
+#input3 {
+    margin-top: 50px;
+    padding: 10px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background-color: #044cdb;
+    color: #fff;
+    border: 0px;
+    width: 406px;
+    position: relative;
+    left: 5px;
+    border-radius: 2px;
+    transition: 1s;
+    font-size: 16px;
+}
+
+#input3:hover {
+    background-color: #1d4696;
+}
+
+#regis {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 122.5px;
+    margin-top: 50px;
+}
+
+#reg {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    text-decoration: none;
+    color: #3871e4;
+    transition: 1s;
+}
+
+#reg:hover {
+    color: #3871e4bd;
+}
+
+#forg {
+    text-decoration: none;
+    position: relative;
+    left: -97px;
+    color: #3871e4;
+    top: 20px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#cere {
+    position: absolute;
+    left: 50px;
+    top: 600px;
+}
+
+#copy {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+    .iniciar {
+        height: 600px;
+    }
+
+    #cere {
+        display: none;
+    }
+
+
+    .ul2 {
+        margin-top: -50px
+    }
+}
+

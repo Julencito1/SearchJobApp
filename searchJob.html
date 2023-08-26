@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html class="htmlent" lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontrar trabajo - Untechables</title>
+
+    
+    <link rel="stylesheet" href="searchJob.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=IBM+Plex+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<nav class="nav1">
+    <ul class="ul1">
+        <li id="nav_menu">
+            <button id="menu">
+                <span id="menuicon" class="material-symbols-outlined">
+                    menu
+                    </span>
+            </button>
+        </li>
+
+        <li id="nav_menu">
+            <a id="untecha" href="index.html">
+                Untechables
+            </a>
+        </li>
+
+        <li id="nav_menu">
+            <a id="untech" href="">
+                Servicios
+            </a>
+        </li>
+
+        <li id="nav_menu">
+            <a id="untech" href="">
+                Objetivos
+            </a>
+        </li>
+
+        <li id="nav_menu">
+            <a id="untech" href="">
+                Equipo
+            </a>
+        </li>
+
+        <li id="nav_menu">
+            <a id="untech" href="">
+                Contáctanos
+            </a>
+        </li>
+
+        <li id="nav_menu">
+            <input type="search" id="input0">
+        </li>
+
+        <li id="nav_menu">
+            <button id="buscarlupa">
+                <span id="siono" class="material-symbols-outlined">
+                    search
+                    </span>
+            </button>
+        </li>
+
+        <li id="nav_menu">
+            <a id="tucar" href="#" >
+                Tu carrera
+                <span id="flechaabajo" class="material-symbols-outlined">
+                    arrow_drop_down
+                    </span>
+            </a>
+        </li>
+
+        <li id="nav_menu">
+            <a id="ini" href="iniciar-sesion.html">
+                Iniciar sesión
+            </a>
+        </li>
+
+        <li id="nav_menu">
+            <button id="untechab" href="">
+                <span id="tres" class="material-symbols-outlined">
+                    more_vert
+                    </span>
+            </button>
+        </li>
+    </ul>
+    
+
+
+    <div id="bolanotifi">
+        
+    </div>
+
+
+
+
+</nav>
+</head>
+<body>
+
+    <div class="menu">
+
+        <div id="bolablue">
+            0
+        </div>
+
+        <p id="bienvenido"></p>
+
+        <ul class="ul10">
+
+            <li id="menu_var">
+                <button id="inicioS">
+                    <span id="casa" class="material-symbols-outlined">
+                        home
+                        </span> <span id="txt1"> Inicio</span>
+                </button>
+            </li>
+            <li id="menu_var">
+                
+                <button id="encTra">
+                    <span id="cur" class="material-symbols-outlined">
+                        description
+                        </span>
+                        <span id="txt2">Curriculum</span></button>
+                
+            </li>
+    
+            <li id="menu_var">
+                <button id="encTraP">
+                    <span id="per" class="material-symbols-outlined">
+                        person
+                        </span>
+                        <span id="txt3">
+                            Mi Perfil</span></button>
+            </li>
+    
+            <li id="menu_var">
+                <button id="encTraQ">
+                    <span id="savt" class="material-symbols-outlined">
+                        bookmark
+                        </span>
+                        <span id="txt4">Trabajos guardados</span></button>
+            </li>
+    
+            <li id="menu_var">
+                <button id="encTraX">
+                    <span id="noti" class="material-symbols-outlined">
+                        notification_add
+                        </span>
+                        <span id="txt5">
+                    Notificaciones
+                        </span></button>
+            </li>
+    
+            
+    
+        </ul>
+    
+        <div class="interLinee"></div>
+    
+    
+    
+    <ul class="ul11">
+        <li id="rediri">
+    <a href="#texto1">
+        <button id="cuan">Servicios
+            <span id="more" class="material-symbols-outlined">
+                chevron_right
+                </span>
+        </button>
+    </a>
+        </li>
+    
+        <li id="rediri">
+            <a href="#titulo2">
+                <button id="cuan">Objetivos
+                    <span id="more" class="material-symbols-outlined">
+                        chevron_right
+                        </span>
+                </button>
+            </a>
+        </li>
+    
+        <li id="rediri">
+            <a href="#titulo6">
+                <button id="cuan">Equipo
+                    <span id="more" class="material-symbols-outlined">
+                        chevron_right
+                        </span>
+                </button>
+            </a>
+        </li>
+    
+        <li id="rediri">
+            <a href="#titulo7">
+                <button id="cuan">Contáctanos
+                    <span id="more" class="material-symbols-outlined">
+                        chevron_right
+                        </span>
+                </button>
+            </a>
+        </li>
+    
+        <li id="rediri">
+            <a href="#titulo10">
+                <button id="cuan">Tu carrera
+                    <span id="more" class="material-symbols-outlined">
+                        chevron_right
+                        </span> </button>
+            </a>
+        </li>
+    
+    </ul>
+    
+    <a href="iniciar-sesion.html">
+    <button id="iniciar-s">
+        <span id="log-in" class="material-symbols-outlined">
+            login
+            </span> <span id="inic">Iniciar sesión</span>
+    </button>
+    </a>
+    
+    <button id="cerrar">
+        <span class="material-symbols-outlined">
+            close
+            </span>
+
+            <button id="helpbtn">
+                <span id="hel" class="material-symbols-outlined">
+                    help
+                    </span>Ayuda</button>
+    </div>
+
+
+
+    <div class="trabajos">
+
+        <button id="lupa">
+        <span id="" class="material-symbols-outlined">
+            search
+            </span>
+        </button>
+        <ul class="ul2">
+            <li id="busc">
+        <input id="input" type="text" placeholder="Buscar empleo en Untechables">
+            </li>
+
+            <li id="busc">
+                <button id="mas">
+                    Filtros
+                    <span id="flechaabajo" class="material-symbols-outlined">
+                        arrow_drop_down
+                        </span>
+                </button>
+            </li>
+
+            <li id="busc">
+                <button id="tresp">
+                    <span id="tresA" class="material-symbols-outlined">
+                        more_vert
+                        </span>
+                </button>
+            </li>
+        </ul>
+
+        <div id="separador"></div>
+
+        <div id="software">
+
+            <button id="agre">
+            <span id="ag" class="material-symbols-outlined">
+                bookmark_add
+                </span>
+            </button>
+
+            <h2 id="titulo1">
+                Software Engineer II
+            </h2>
+
+            <p id="parrafo1">
+                Si te apasiona la programación, la resolución de problemas y deseas ser parte del mundo de la tecnología,<br> el rol de software engineer puede brindarte una carrera emocionante y llena de oportunidades de crecimiento.
+            </p>
+
+            <ul class="ul3">
+                <li id="minimo">
+                    <p id="parrafo2">Buscamos a alguien con experiencia sólida en C++ y un buen conocimiento de los principios de programación de bajo nivel.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Debe tener experiencia en el desarrollo de aplicaciones empresariales y conocimientos de frameworks populares como Spring.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Estamos buscando a alguien con experiencia sólida en Python, preferentemente en el desarrollo de aplicaciones web, análisis<br> de datos o aprendizaje automático.</p>
+                </li>
+            </ul>
+
+            <button id="exp1">
+                <span id="ex">
+                Mostrar <span id="mass">más</span></span>
+                <span id="flechaa" class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </button>
+
+            <div id="arrastrar">
+            <button id="curric">
+                <span class="material-symbols-outlined">
+                    arrow_upward
+                    </span>
+                    <p id="ins">
+                        Insertar currículum
+                    </p>
+            </button>
+            </div>
+
+            <div id="le">
+            <button id="enviar">
+                Aplicar ya
+            </button>
+            </div>
+        </div>
+
+        <div id="software1">
+
+            <button id="agre1">
+                <span id="ag1" class="material-symbols-outlined">
+                    bookmark_add
+                    </span>
+                </button>
+
+            <h2 id="titulo1">
+                Software Engineer, Junior
+            </h2>
+
+            <p id="parrafo1">
+                Si te apasiona la programación, la resolución de problemas y deseas ser parte del mundo de la tecnología,<br> el rol de software engineer puede brindarte una carrera emocionante y llena de oportunidades de crecimiento.
+            </p>
+
+            <ul class="ul3">
+                <li id="minimo">
+                    <p id="parrafo2">Buscamos a alguien con experiencia sólida en C++ y un buen conocimiento de los principios de programación de bajo nivel.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Debe tener experiencia en el desarrollo de aplicaciones empresariales y conocimientos de frameworks populares como Spring.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Estamos buscando a alguien con experiencia sólida en Python, preferentemente en el desarrollo de aplicaciones web, análisis<br> de datos o aprendizaje automático.</p>
+                </li>
+            </ul>
+
+            <button id="exp2">
+                <span id="ex">
+                Mostrar <span id="loco" >más</span></span>
+                <span id="flechaa1" class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </button>
+
+            <div id="arrastrar1">
+            <button id="curric">
+                <span class="material-symbols-outlined">
+                    arrow_upward
+                    </span>
+                    <p id="ins">
+                        Insertar currículum
+                    </p>
+            </button>
+            </div>
+
+            <div id="le1">
+            <button id="enviar">
+                Aplicar ya
+            </button>
+            </div>
+        </div>
+
+        <div id="software2">
+
+            <button id="agre2">
+                <span id="ag2" class="material-symbols-outlined">
+                    bookmark_add
+                    </span>
+                </button>
+
+            <h2 id="titulo1">
+                Front End
+            </h2>
+
+            <p id="parrafo1">
+                Tienes la oportunidad de convertir ideas y diseños en realidad, dando vida a interfaces interactivas y amigables para los usuarios. Tu trabajo implica dominar lenguajes como HTML, CSS y JavaScript, así como estar al tanto de las últimas tendencias y tecnologías en diseño web. 
+            </p>
+
+            <ul class="ul3">
+                <li id="minimo">
+                    <p id="parrafo2">El dominio de HTML es esencial, ya que te permite crear la estructura y la organización de una página web.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Trabajarás con CSS para aplicar colores, fuentes, márgenes, espaciados, alineaciones y otros estilos visuales a los elementos HTML.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Usarás JavaScript para realizar acciones dinámicas en respuesta a eventos del usuario, como hacer clic en un botón, desplazarse por una página o completar formularios.</p>
+                </li>
+            </ul>
+
+            <button id="exp3">
+                <span id="ex">
+                Mostrar <span id="loco1" >más</span></span>
+                <span id="flechaa2" class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </button>
+
+            <div id="arrastrar2">
+            <button id="curric1">
+                <span class="material-symbols-outlined">
+                    arrow_upward
+                    </span>
+                    <p id="ins1">
+                        Insertar currículum
+                    </p>
+            </button>
+            </div>
+
+            <div id="cur2">
+            <button id="enviar1">
+                Aplicar ya
+            </button>
+            </div>
+        </div>
+
+        <div id="software3">
+
+            <button id="agre3">
+                <span id="ag3" class="material-symbols-outlined">
+                    bookmark_add
+                    </span>
+                </button>
+
+            <h2 id="titulo1">
+                Front End II
+            </h2>
+
+            <p id="parrafo1">
+                Tienes la oportunidad de convertir ideas y diseños en realidad, dando vida a interfaces interactivas y amigables para los usuarios. Tu trabajo implica dominar lenguajes como HTML, CSS y JavaScript, así como estar al tanto de las últimas tendencias y tecnologías en diseño web. 
+            </p>
+
+            <ul class="ul3">
+                <li id="minimo">
+                    <p id="parrafo2">El dominio de HTML es esencial, ya que te permite crear la estructura y la organización de una página web.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Trabajarás con CSS para aplicar colores, fuentes, márgenes, espaciados, alineaciones y otros estilos visuales a los elementos HTML.</p>
+                </li>
+
+                <li id="minimo">
+                    <p id="parrafo2">Usarás JavaScript para realizar acciones dinámicas en respuesta a eventos del usuario, como hacer clic en un botón, desplazarse por una página o completar formularios.</p>
+                </li>
+            </ul>
+
+            <button id="exp4">
+                <span id="ex">
+                Mostrar <span id="loco2" >más</span></span>
+                <span id="flechaa3" class="material-symbols-outlined">
+                    expand_more
+                    </span>
+            </button>
+
+            <div id="arrastrar3">
+            <button id="curric2">
+                <span class="material-symbols-outlined">
+                    arrow_upward
+                    </span>
+                    <p id="ins1">
+                        Insertar currículum
+                    </p>
+            </button>
+            </div>
+
+            <div id="cur2">
+            <button id="enviar2">
+                Aplicar ya
+            </button>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- Perfil Editable -->
+
+    <div class="miperfiledit">
+
+        <div class="cargando"></div>
+
+        <div id="formulario_sub">
+
+        <img id="sesi" src="group-stuffed-bears-are-sitting-front-blue-wall.jpg" alt="" width="600px" height="600px">
+
+        <div id="nope">
+
+            <button id="cerrar_no-bien">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </button>
+        <p id="no-bien">Los datos no se han introducido correctamente. Por favor, asegúrate de completar todos los campos requeridos antes de continuar.</p>
+
+        </div>
+
+
+
+        <h2 id="miP">Mi Perfil</h2>
+        <p id="paP">Cree su perfil de Untechables para guardar su información y postularse<br> rápidamente, obtenga recomendaciones personalizadas y consulte el contenido<br> de carrera para ayudarlo en su búsqueda.</p>
+
+
+        <form action="searchJob.php" method="post" id="env">
+            <div id="in1">
+                <label for="input1">
+                <input id="input1" type="text" name="nombre" placeholder="Nombre legal*"></label>
+            </div>
+        
+            <div id="in2">
+                <label for="correo">
+                <input id="correo" type="email" name="gmail" placeholder="Correo electrónico*" required></label>
+            </div>
+        
+            <div id="in3">
+                <label for="pais">
+                <input id="pais" type="text" name="pais" placeholder="País*"></label>
+            </div>
+        
+            <div id="in4">
+                <label for="telnum">
+                <input id="telnum" maxlength="3" type="number" name="codigoPais"></label>
+        
+                <label for="telnum1">
+                <input id="telnum1" type="number" name="numeroTelefono" placeholder="Teléfono"></label>
+            </div>
+        
+            <button id="envi" type="submit">Crear perfil</button>
+        </form>
+        
+
+        <button id="cancelar">
+            Cancelar
+        </button>
+
+        <p id="hazlo">
+            Estamos emocionados de tenerte como parte de nuestra comunidad. ¡Únete hoy mismo!
+        </p>
+
+        
+        
+        </div>
+
+        
+
+        <div id="formulario_done">
+            <img id="welc" src="img/4989777-removebg-preview.png" alt="" width="400px" height="400px">
+
+
+            <div id="mi_nombre">
+                
+            </div>
+
+            <div id="mi_correo">
+                <input type="email" id="input_checked">
+            </div>
+
+            <div id="mi_pais">
+
+            </div>
+
+            <div id="mi_numero"></div>
+
+            <button id="editar_mi_perfil">
+                <span class="material-symbols-outlined">
+                    edit
+                    </span> <span id="editare">Editar</span>
+            </button>
+            
+            <div id="background-vv"></div>
+            <div id="background-vv1"></div>
+            
+            <div id="background-vv3"></div>
+
+        </div>
+
+        <div class="quehacer">
+
+            <h2 id="title4">Proceso de Contratación y Oportunidades de Carrera</h2>
+
+            <div id="textopara_1">
+                
+                
+                
+                <p id="tex_to">
+                En esta etapa clave de nuestro proceso de selección, nos complace conocerte mejor y explorar cómo tu experiencia y habilidades<br> encajan con nuestra organización. Nuestras entrevistas están diseñadas para ser una conversación significativa y enriquecedora,<br> donde ambos podamos evaluar la compatibilidad y el potencial de colaboración.
+
+Durante la entrevista, nos enfocaremos en descubrir<br> tus fortalezas, tu trayectoria profesional, tus logros pasados y tus habilidades relevantes. También nos interesará conocer tus motivaciones<br>, tus valores y cómo encajarías en nuestro equipo y cultura organizativa.
+Valoramos la diversidad y la inclusión, por lo que nos aseguraremos<br> de que todas las entrevistas sean justas.</p>
+            </div>
+
+            <div id="textopara_2">
+
+               
+                <ul class="ul6">
+                    <li id="beneficios_v">
+                        <p id="frase"><span id="checke1" class="material-symbols-outlined">
+                            done
+                            </span>Salario competitivo: Valoramos tu contribución y ofrecemos salarios justos y competitivos<br> en el mercado laboral.</p> 
+                    </li>
+                    <li id="beneficios_v">
+                        <p id="frase2"><span id="checke2" class="material-symbols-outlined">
+                            done
+                            </span>Programas de desarrollo profesional: Fomentamos el crecimiento y el desarrollo de nuestros<br> empleados a través de programas de capacitación, oportunidades de aprendizaje continuo<br> y desarrollo de habilidades.</p>
+                    </li>
+                    <li id="beneficios_v">
+                        <p id="frase3"><span id="checke3" class="material-symbols-outlined">
+                            done
+                            </span>Flexibilidad laboral: Reconocemos la importancia de equilibrar la vida personal y<br> profesional. Ofrecemos opciones flexibles de horarios de trabajo y posibilidades de teletrabajo,<br> cuando sea posible.</p>
+                    </li>
+                    
+                </ul>
+
+                <ul class="ul7">
+                    <li id="beneficios_v2">
+                        <p id="frase4">
+                            <span id="checke4" class="material-symbols-outlined">
+                                done
+                                </span>Programas de bienestar: Promovemos el bienestar integral de nuestros empleados mediante<br> programas de salud y bienestar, actividades deportivas, acceso a gimnasios o clases de<br> ejercicio, asesoramiento nutricional y otros recursos para cuidar de tu salud física y mental.
+                        </p>
+                    </li>
+
+                    <li id="beneficios_v2">
+                        <p id="frase5">
+                            <span id="checke5" class="material-symbols-outlined">
+                                done
+                                </span>Planes de seguro médico y dental: Proporcionamos planes de seguro médico y dental para garantizar que nuestros empleados y sus familias tengan acceso a la atención médica necesaria.
+                        </p>
+                    </li>
+
+                    <li id="beneficios_v2">
+                        <p id="frase6">
+                            <span id="checke6" class="material-symbols-outlined">
+                                done
+                                </span>Planes de jubilación: Nos preocupamos por tu futuro financiero. Ofrecemos planes de jubilación y opciones de ahorro para ayudarte a planificar y asegurar tu estabilidad económica a largo plazo.
+                        </p>
+                    </li>
+
+                    <li id="beneficios_v2">
+                        <p id="frase7">
+                            <span id="checke6" class="material-symbols-outlined">
+                                done
+                                </span>Ambiente de trabajo inclusivo: Valoramos la diversidad y la inclusión. Promovemos un ambiente de trabajo respetuoso y colaborativo donde todos los empleados sean valorados y respetados.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="textopara_3">
+                
+                <ul class="ul8">
+                    <li id="contratos">
+                        Solicitud y revisión de currículum
+                    </li>
+
+                    <li id="contratos">
+                        Entrevista inicial
+                    </li>
+
+                    <li id="contratos">
+                        Evaluación de habilidades y competencias
+                    </li>
+
+                    <li id="contratos">
+                        Entrevista con el equipo
+                    </li>
+
+                    <li id="contratos">
+                        Referencias y verificación de antecedentes
+                    </li>
+
+                    <li id="contratos">
+                        Oferta de empleo
+                    </li>
+
+                    <li id="contratos">
+                        Integración y bienvenida
+                    </li>
+
+                </ul>
+            </div>
+
+            <ul class="ul5">
+                <li id="que_hacemos">
+                    <button id="btn1">
+                        <img id="img1" src="img/habilidades.png" alt="">
+
+                        <h2 id="sub_title">Nuestras entrevistas</h2>
+
+                        <p id="sub_text">Queremos que te sientas cómodo y confiado durante todo el proceso. Si tienes alguna pregunta, no dudes en compartirla con nosotros. </p>
+                    </button>
+                </li>
+
+                <li id="que_hacemos">
+                    <button id="btn2">
+                        <img id="img2" src="img/incentivo.png" alt="">
+
+                        <h2 id="sub_title2">Beneficios</h2>
+
+                        <p id="sub_text2">Nos enorgullece ofrecer una amplia gama de beneficios que valoramos y cuidamos para nuestros empleados.</p>
+                    </button>
+                </li>
+
+                <li id="que_hacemos">
+                    <button id="btn3">
+                        <img id="img3" src="img/hacer-un-seguimiento.png" alt="">
+
+                        <h2 id="sub_title2">Proceso de contacto</h2>
+
+                        <p id="sub_text3">Nuestro proceso de contratación se basa en seleccionar a los talentos que se ajusten a nuestros valores y necesidades de la organización. </p>
+                    </button>
+                </li>
+            </ul>
+
+            
+        </div>
+
+        <div class="FAQ">
+        
+            <h2 id="preG">Preguntas frecuentes</h2>
+            
+            <ul class="todos_faq">
+
+               
+
+            <ul class="ul_faq">
+                <li id="li_faq1">
+
+        <button id="FAQ1">
+            ¿Cuál es el proceso de selección y contratación?
+            <span id="expandir" class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+        </button>
+
+                </li>
+
+        <li id="li_faq1">
+
+        <p id="respuesta_FAQ1">
+            
+            Nuestro proceso de <span id="sele">selección</span> generalmente involucra varias etapas, que pueden incluir la revisión de currículums,<br> entrevistas telefónicas, pruebas técnicas y entrevistas en persona. También podemos solicitar referencias y realizar<br> verificaciones de antecedentes antes de tomar una decisión final.
+            </p>
+                </li>
+
+            </ul>
+                
+
+                
+
+            <ul class="ul_faq2">
+          
+                <li id="li_faq2">
+
+          
+        <button id="FAQ2">
+            ¿Ofrecen oportunidades de desarrollo profesional y capacitación?
+            <span id="expandir2" class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+        </button>
+
+                </li>
+
+        <li id="li_faq2">
+
+        <p id="respuesta_FAQ2">
+            Sí, en nuestra empresa creemos en el crecimiento y <span id="sele2">desarrollo profesional</span> de nuestros empleados. Ofrecemos<br> oportunidades de <span id="sele3">capacitación</span>, programas de desarrollo interno y apoyo para el crecimiento de habilidades y<br> conocimientos.
+        </p>
+
+                </li>
+            </ul>
+
+               
+
+                
+
+
+            <ul class="ul_faq3">
+            
+                <li id="li_faq3">
+
+        <button id="FAQ3">
+            ¿Cuáles son los requisitos para aplicar a un puesto en su empresa?
+            <span id="expandir3" class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+        </button>
+
+                </li>
+
+                <li id="li_faq3">
+
+        <p id="respuesta_FAQ3">
+            Los <span id="sele4">requisitos</span> pueden variar según el <span id="sele5">puesto</span>, pero en general buscamos candidatos con experiencia relevante en el<br> campo, habilidades técnicas sólidas, excelentes habilidades de comunicación y capacidad para trabajar en equipo.<br> Además, es posible que haya requisitos específicos relacionados con la educación o certificaciones.
+        </p>
+                </li>
+
+            </ul>
+
+                
+
+                
+
+            <ul class="ul_faq4">
+
+                <li id="li_faq4">
+
+        <button id="FAQ4">
+            ¿Cuáles son los beneficios y las ventajas de trabajar en su empresa?
+            <span id="expandir4" class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+        </button>
+                </li>
+
+                <li id="li_faq4">
+
+        <p id="respuesta_FAQ4">
+            Algunos de los <span id="sele6">beneficios</span> que ofrecemos incluyen un <span id="sele7">ambiente de trabajo colaborativo</span>, <span id="sele8">oportunidades de crecimiento<br> profesional</span>, <span id="sele9">paquetes de compensación competitivos</span>, <span id="sele10">beneficios de salud y bienestar</span>, <span id="sele11">programas de flexibilidad laboral</span><br> y <span id="sele12">un ambiente inclusivo y diverso</span>.
+        </p>
+    </li>
+
+    </ul>
+
+               
+
+               
+
+            
+<ul class="ul_faq5">
+
+            <li id="li_faq5">
+
+        <button id="FAQ5">
+            ¿Cómo puedo enviar mi solicitud?
+            <span id="expandir5" class="material-symbols-outlined">
+                arrow_forward_ios
+                </span>
+        </button>
+            </li>
+
+            <li id="li_faq5">
+        
+        <p id="respuesta_FAQ5">
+            Puedes <span id="sele13">enviar tu solicitud</span> a través de nuestro sitio web, en la sección "Careers / Inicio". Allí encontrarás un formulario<br> para completar con tu información personal, currículum y cualquier otra documentación relevante.
+        </p>
+            </li>
+ </ul>
+                
+            </ul>
+        
+        </div>
+
+</div>
+
+   
+    
+    
+
+<!-- Trabajos Guardados-->
+
+    <div class="trabajosguardados">
+        <h2 id="titulo2">Trabajos guardados</h2>
+
+        
+
+        <p id="parrafo3">
+            Aquí puedes almacenar los trabajos que te interesen para revisarlos más tarde.<br> Guarda las oportunidades que te llamen la atención y accede a ellas cuando lo desees.
+        </p>
+
+        <img id="how" src="How-Google-is-helping-to-support.width-1200.format-webp.webp" alt="" width="800px" height="300px">
+
+        <p id="parrafo4">
+            No tienes ningún trabajo guardado en este momento. Explora nuestras oportunidades y guarda los trabajos<br> que te interesen para revisarlos más tarde.
+        </p>
+
+        <div id="softwaresaved">
+            
+            
+            <button id="iradire">
+                <span id="flec" class="material-symbols-outlined">
+                    arrow_right_alt
+                    </span>
+            </button>
+
+            <button id="borrardire">
+                <span id="" class="material-symbols-outlined">
+                    bookmark_remove
+                    </span>
+            </button>
+            <h2 id="titulo3">Software Engineer II</h2>
+
+            <button id="aplicarya">Aplicar ya</button>
+        </div>
+
+        <div id="softwaresaved1">
+            
+            <button id="iradire1">
+                <span id="flec" class="material-symbols-outlined">
+                    arrow_right_alt
+                    </span>
+            </button>
+
+            <button id="borrardire1">
+                <span id="" class="material-symbols-outlined">
+                    bookmark_remove
+                    </span>
+            </button>
+            <h2 id="titulo3">Software Engineer, Junior</h2>
+
+            <button id="aplicarya">Aplicar ya</button>
+        </div>
+
+        <div id="softwaresaved2">
+        
+            <button id="iradire2">
+                <span id="flec" class="material-symbols-outlined">
+                    arrow_right_alt
+                    </span>
+            </button>
+            
+
+            <button id="borrardire2">
+                <span id="" class="material-symbols-outlined">
+                    bookmark_remove
+                    </span>
+            </button>
+            <h2 id="titulo3">Front End</h2>
+
+            <button id="aplicarya">Aplicar ya</button>
+        </div>
+
+        <div id="softwaresaved3">
+
+            <button id="iradire3">
+                <span id="flec" class="material-symbols-outlined">
+                    arrow_right_alt
+                    </span>
+            </button>
+
+            <button id="borrardire3">
+                <span id="" class="material-symbols-outlined">
+                    bookmark_remove
+                    </span>
+            </button>
+
+            <h2 id="titulo4_5">Front End II</h2>
+
+            <button id="aplicarya">Aplicar ya</button>
+        </div>
+
+    </div>
+
+
+<!-- Filtros -->
+
+<div class="filtros">
+
+    <button id="cerrarfiltros">
+        <span class="material-symbols-outlined">
+            close
+            </span>
+    </button>
+    <ul class="ul4">
+        <li id="filtro">
+            <input name="check" type="checkbox" id="inputfiltro">
+            <label id="label_filtro" for="inputfiltro"> 
+               Jornada completa
+            </label>
+        </li>
+
+        <li id="filtro">
+            <input name="check" type="checkbox" id="inputfiltro1">
+            <label id="label_filtro1" for="inputfiltro1">
+                Media jornada
+            </label>
+        </li>
+
+        <li id="filtro">
+            <input name="check" type="checkbox" id="inputfiltro2">
+            <label id="label_filtro2" for="inputfiltro2">
+                Remoto
+            </label>
+        </li>
+
+        <li id="filtro">
+            <input name="check" type="checkbox" id="inputfiltro3">
+            <label id="label_filtro3" for="inputfiltro3">
+                Presencial
+            </label>
+        </li>
+
+        <li id="filtro">
+            <input name="check" type="checkbox" id="inputfiltro4">
+            <label id="label_filtro4" for="inputfiltro4">
+                Temporal
+            </label>
+        </li>
+    </ul>
+
+    <button id="aplicarfiltros">
+        Aplicar
+    </button>
+</div>
+
+
+
+
+<!-- Notificaciones -->
+
+
+<div class="notificaciones">
+
+<div id="posibles_ajustes">
+    <div id="cerrar_ajuste">
+    <h2 id="ajustes_titulo">
+        Ajustes de notificaciones
+    </h2>
+
+    <button id="cruz_cerrar">
+        <span class="material-symbols-outlined">
+            close
+            </span>
+    </button>
+    </div>
+
+    <div id="primera_opcion">
+
+    <p id="permitir_correo">Permitir notificaciones por correo</p>
+
+    <div class="micontener_boton2">
+    <div class="toggle-button2">
+        <div class="ball2"></div>
+      </div>
+    </div>
+    </div>
+
+
+    <div id="segunda_opcion">
+
+        <p id="permitir_sms">Permitir notificaciones por SMS</p>
+    
+        <div class="micontener_boton">
+        <div class="toggle-button">
+            <div class="ball"></div>
+          </div>
+        </div>
+    </div>
+
+    <div id="tercera_opcion">
+
+        <p id="permitir_posibles">Recibir notificaciones de posibles ofertas</p>
+    
+        <div class="micontener_boton3">
+        <div class="toggle-button3">
+            <div class="ball3"></div>
+          </div>
+        </div>
+    </div>
+
+
+    <div id="cuarta_opcion">
+
+        <p id="permitir_historial">Historial de notificaciones</p>
+    
+        <div class="micontener_boton4">
+        <div class="toggle-button4">
+            <div class="ball4"></div>
+          </div>
+        </div>
+    </div>
+
+    <div id="quinta_opcion">
+
+        <p id="permitir_personalizar">Personalización de notificaciones</p>
+    
+        <div class="micontener_boton5">
+        <div class="toggle-button5">
+            <div class="ball5"></div>
+          </div>
+        </div>
+    </div>
+
+    <div id="sexta_opcion">
+
+        <p id="permitir_ordenar">Ordenar notificaciones</p>
+    
+        <div class="micontener_boton5">
+        <select class="elegir_uno"> 
+            <option>Últimos 30 días</option>
+            <option>Última semana</option>
+            <option>Último año</option>
+            <option>Todas</option>
+
+        </select>
+        </div>
+    </div>
+
+
+    <div id="septima_opcion">
+
+        <p id="permitir_anclar">Anclar notificaciones</p>
+    
+        <div class="micontener_boton6">
+            <div class="toggle-button6">
+                <div class="ball6"></div>
+              </div>
+            </div>
+    </div>
+
+
+    <div id="octava_opcion">
+
+        <p id="permitir_compartir">Compartir notificaciones</p>
+    
+        <div class="micontener_boton7">
+            <div class="toggle-button7">
+                <div class="ball7"></div>
+              </div>
+            </div>
+    </div>
+
+    <div id="novena_opcion">
+
+        <p id="permitir_borrar">Borrar notificaciones</p>
+    
+        <button id="borrar_notis">Borrar notificaciones</button>
+    </div>
+
+    <div id="todoslos">
+        <p id="todas_opciones">Todos las opciones serán cambiadas automaticamente.</p>
+    </div>
+
+
+</div>
+
+    <div id="config_div">
+    <h2 id="titulo4">Notificaciones</h2>
+
+    <button id="config">
+        <span class="material-symbols-outlined">
+            settings
+            </span>
+    </button>
+</div>
+    <p id="parrafo5">Recibirás alertas sobre las últimas vacantes en tu área de especialización.<br> No te pierdas la oportunidad de postularte para el trabajo de tus sueños.</p>
+
+
+    <div id="separador2"></div>
+
+    <div id="notisF">
+
+        <div id="boton_nuevo">
+            <p id="estrella">
+                Notificaciones introducidas recientemente
+            </p>
+
+           
+            <svg id="estrellamorada" width="25" height="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path  fill="#a855f7" d="m5.825 22l1.625-7.025L2 10.25l7.2-.625L12 3l2.8 6.625l7.2.625l-5.45 4.725L18.175 22L12 18.275L5.825 22Z"/>
+            </svg>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+    <script src="searchJob.js"></script>
+</body>
+</html>

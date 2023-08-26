@@ -1,0 +1,536 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.nav1 {
+    margin-top: 30px;
+}
+
+.ul1 {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+#careers_nav {
+    display: inline-block;
+    margin: 0 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#careers_nav:nth-child(2) {
+    margin-left: 700px;
+}
+
+#careers_nav:nth-child(1) {
+    color: orange;
+}
+
+
+#careersA {
+    text-decoration: none;
+    color: black;
+}
+
+#careersA1 {
+    color: orange;
+    font-size: 30px;
+}
+
+#ini {
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    transition: .3s;
+}
+
+#ini:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.buscador {
+    text-align: center;
+    margin-top: -130px;
+}
+
+#texto1 {
+    margin-top: 150px;
+    font-size: 40px;
+    color: #a31aff;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+.ul2 {
+    position: relative;
+    top: 200px;
+}
+
+.nav2 {
+    margin-top: 100px;
+}
+
+#empleo {
+    display: inline-block;
+    
+}
+
+.elegir {
+    position: relative;
+    top: -1px;
+    background-position: left center;
+    padding-right: 20px;
+    padding: 15px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#input {
+    padding: 16px;
+    width: 400px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: 2px solid #cce6ff;
+}
+
+#input:focus {
+    outline: none;
+    border: 2px solid #cce6ff;
+}
+
+#input::placeholder {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#buscar {
+    text-align: center;
+    padding: 10.3px;
+    z-index: 999;
+    left: -52px;
+    cursor: pointer;
+    position: relative;
+    top: 5.49px;
+    border: 1px solid transparent;
+    background-color: #cce6ff;
+}
+
+#puestos {
+    margin-top: 100px;
+    display: none;
+}
+
+.puestos_ul {
+    text-align: center;
+    list-style: none;
+}
+
+#soft {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+#btn1 {
+padding: 10px;
+width: 400px;
+height: 350px;
+border: 0px;
+cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: #F0F8FF;
+}
+
+
+#titulo {
+    color: #3262e6;
+    position: relative;
+    top: -60px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#parra {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 25px;
+    color: black;
+    font-size: 15px;
+}
+
+#apli {
+    position: relative;
+    top: 50px;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#flec {
+    position: relative;
+    top: 6px;
+    
+}
+
+.front {
+    list-style: none;
+    text-align: center;
+}
+
+#fr {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+#frontend {
+    margin-top: 100px;
+    display: none;
+}
+
+.back {
+    list-style: none;
+    text-align: center;
+}
+
+#backend {
+    margin-top: 100px;
+    display: none;
+}
+
+.ana {
+    list-style: none;
+    text-align: center;
+}
+
+#analist {
+    margin-top: 100px;
+    display: none;
+}
+
+#an {
+    display: inline-block;
+    margin: 50px 50px;
+}
+
+.ciber {
+    list-style: none;
+    text-align: center;
+}
+
+#cibersecurity {
+    margin-top: 100px;
+    display: none;
+}
+
+#cib {
+    display: inline-block;
+    margin: 0 50px;
+}
+
+#parrafo {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#line {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1268.66666667px;
+    height: 1px;
+    background-color: rgb(206, 207, 207);
+}
+
+#copy {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#cop {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+
+.menu {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    #careers_nav:nth-child(7) {
+        display: none;
+    }
+
+    #careers_nav:nth-child(6) {
+        display: none;
+    }
+
+    #careers_nav:nth-child(5) {
+        display: none;
+    }
+
+    #careers_nav:nth-child(4) {
+        display: none;
+    }
+
+    #careers_nav:nth-child(3) {
+        display: none;
+    }
+
+    #careers_nav:nth-child(2) {
+        display: none;
+    }
+
+
+    #careers_nav:nth-child(8) {
+        margin-left: 120px;
+        margin-right: 0px;
+    }
+
+    #texto1 {
+        margin-top: 130px;
+        text-align: center;
+    }
+
+
+    #parrafo {
+        font-size: 13px;
+    }
+
+    .elegir {
+        padding: 10px;
+    }
+
+    #input {
+        width: 220px;
+        padding: 11px;
+    }
+
+    #buscar {
+        padding: 4.3px;
+        position: relative;
+        left: -40px;
+    }
+
+    #goimg {
+        width: 500px;
+        height: 300px;
+    }
+
+    #line {
+        width: 475.75px;
+    }
+
+    #soft {
+        display: block;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .puestos_ul {
+        text-align: left;
+    }
+
+    #fr {
+        display: block;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .front {
+        text-align: left;
+    }
+
+    .back {
+        text-align: left;
+    }
+
+    #ba {
+        display: block;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .ana {
+        text-align: left;
+    }
+
+    #an {
+        display: block;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .ciber {
+        text-align: left;
+    }
+
+    #cib {
+        display: block;
+        margin: 50px 0px 0px 0px;
+    }
+
+    
+
+    .menu {
+        z-index: 9999;
+        display: block;
+        transition: 1s;
+        width: 0px;
+        height: 988px;
+        background-color: #fff;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    .ul10 {
+        display: block;
+        list-style: none;
+        margin-top: 40px;
+        display: none;
+        margin-left: -20px;
+    }
+
+
+    #menu_var {
+        margin-bottom: 30px;
+    }
+
+    #careers1 {
+        font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding: 10px;
+        width: 260px;
+        border: 0px;
+        background-color: transparent;
+        transition: .7s;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+    #careers1:hover {
+        background-color: rgb(248,249,250);
+    }
+
+    .interLinee {
+        display: none;
+        width: 300px;
+        height: 1px;
+        background-color: rgb(248,249,250);
+    }
+    
+    #preg {
+        width: 260px;
+        display: block;
+        font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .ul11 {
+        display: none;
+        list-style: none;
+        margin-left: -50px;
+    }
+
+    #copy {
+        text-align: center;
+    }
+
+    #cuan {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        transition: .3s;
+        font-size: 12px;
+        border-radius: 2px;
+        border: 0px;
+        font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        height: 40px;
+        text-align: left;
+        width: 275px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+   
+
+    #cuan:hover {
+        background-color: rgb(248,249,250);
+    }
+
+    #more {
+        position: relative;
+        top: 7px;
+    }
+
+    #iniciar-s {
+        cursor: pointer;
+        border: 0px;
+        padding: 5px;
+        margin-top: 100px;
+        margin-left: 30px;
+        width: 260px;
+        text-align: left;
+        transition: 1s;
+        background-color: transparent;
+    }
+
+    #menu {
+        background-color: transparent;
+        transition: 0.3s;
+        display: block;
+        cursor: pointer;
+        border: 0px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    #menu:hover {
+        background-color: rgb(223, 225, 226);
+    }
+
+    #ini {
+        position: relative;
+        top: -6px;
+        left: 10px;
+    }
+
+    #iniciar-s:hover {
+        color: blue;
+        margin-left: 40px;
+    }
+
+    #cerrar {
+        position: absolute;
+        top: 5px;
+        border: 0px;
+        cursor: pointer;
+        border: 1px solid black;
+        left: 240px;
+    }
+
+    #texto1 {
+        font-size: 15px;
+    }
+
+    .buscador {margin-top: -60px;}
+
+}

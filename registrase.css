@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+}
+
+html {
+    background-color: #001133;
+}
+
+.registrarme {
+    width: 633.33px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+
+#R {
+    margin-top: 20px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+}
+
+#nombre {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: -410px;
+}
+
+#nombreinput {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: -220px;
+    text-indent: 10px;
+    height: 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#nombreinput:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#apellidos {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: -390px;
+}
+
+.ula {
+    list-style: none;
+    margin-left: 140px;
+}
+
+#apellido {
+    margin-top: 20px;
+    display: inline-block;
+    margin: 0 110px;
+}
+
+#apell1 {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: -225px;
+    text-indent: 10px;
+    height: 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#apell1:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#apell2 {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 200px;
+    margin-left: -220px;
+    text-indent: 10px;
+    height: 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#apell2:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#contr {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: -370px;
+}
+
+#contra {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: -220px;
+    text-indent: 10px;
+    height: 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#contra:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#confcontra {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: -270px;
+}
+
+#contra2 {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: -215px;
+    text-indent: 10px;
+    height: 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#contra2:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#tel {
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: -290px;
+}
+
+#tele {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: -110px;
+    text-indent: 10px;
+    height: 30px;
+    font-family: 'Be Vietnam Pro',Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#tele:focus {
+    border-bottom: 1px solid rgb(57, 152, 230);
+}
+
+#en {
+    position: relative;
+    top: 30px;
+    padding: 15px;
+    left: 150px;
+    background-color: #044cdb;
+    color: #fff;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#en:hover {
+    background-color: #1d4696;
+}
+
+#flechaizq {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#flechaizq:hover {
+    background-color: rgba(197, 193, 193, 0.568);
+}
